@@ -1,3 +1,4 @@
 /node_modules/
 .env
 /lib/user.js
+/npm-test
