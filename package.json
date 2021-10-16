@@ -1,7 +1,7 @@
 {
-  "name": "frontend",
+  "name": "useauthrocket",
   "version": "1.0.0",
-  "description": "",
+  "description": "an authentication system for your reactjs applications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "np": "^7.5.0",
     "qs": "^6.10.1"
   }
 }
