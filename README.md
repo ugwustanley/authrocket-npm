@@ -1,4 +1,4 @@
-## authrocket
-***
-###installation
+# authrocket
+
+## installation
   npm install useauthrocket
