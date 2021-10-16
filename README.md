@@ -40,7 +40,7 @@ npm install useauthrocket
     - `accepts`: 
         - uuid (string)
     - `returns`: object
-  ```js
+ ```js
  const user = await app.getUser(<uuid>)
 ```
  
@@ -60,7 +60,7 @@ npm install useauthrocket
 ```  
  
 * signout
-     ```js
+```js
  const user = await app.signout()
 ```  
    
