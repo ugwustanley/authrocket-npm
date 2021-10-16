@@ -42,7 +42,8 @@ npm install useauthrocket
     - `returns`: object
   ```js
  const user = await app.getUser(<uuid>)
-```    
+```
+ 
 * isEmailVerified
     - `accepts`:
         - uuid (string)
@@ -56,7 +57,8 @@ npm install useauthrocket
     - `returns`: boolean
  ```js
  const user = await app.isUserLoggedIn(<uuid>)
-```          
+```  
+ 
 * signout
      ```js
  const user = await app.signout()
