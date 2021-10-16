@@ -3,7 +3,7 @@
 ## Installation
     npm install useauthrocket
 ## Usage
- import Authrocket from 'useauthrocket'
+import Authrocket from 'useauthrocket'
     
   const app = Authrocket.initializeApp({
            apiKey: <your api key>,
