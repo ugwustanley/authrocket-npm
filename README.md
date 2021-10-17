@@ -26,7 +26,7 @@ npm install useauthrocket
         - payload (object)(optional)
     - `returns`: object
  ```js
- const user = await app.createAccount(<email>, <password>, <payload>)
+ const user = app.createAccount(<email>, <password>, <payload>)
 ```   
 * login
     - `accepts`: 
@@ -34,14 +34,14 @@ npm install useauthrocket
         - password (string)
     - `returns`: object
  ```js
- const user = await app.login(<email>, <password>)
+ const user = app.login(<email>, <password>)
 ```  
 * getUser
     - `accepts`: 
         - uuid (string)
     - `returns`: object
  ```js
- const user = await app.getUser(<uuid>)
+ const user = app.getUser(<uuid>)
 ```
  
 * isEmailVerified
@@ -49,19 +49,19 @@ npm install useauthrocket
         - uuid (string)
     - `returns`: boolean
  ```js
- const user = await app.isEmailVerified(<uuid>)
+ const user = app.isEmailVerified(<uuid>)
 ```          
 * isUserLoggedIn
     - `accepts`:
         - uuid (string)
     - `returns`: boolean
  ```js
- const user = await app.isUserLoggedIn(<uuid>)
+ const user = app.isUserLoggedIn(<uuid>)
 ```  
  
 * signout
 ```js
- const user = await app.signout()
+ const user = app.signout()
 ```  
    
     
