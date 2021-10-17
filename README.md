@@ -61,7 +61,7 @@ npm install useauthrocket
  
 * signout
 ```js
- const user = app.signout()
+ app.signout()
 ```  
    
     
