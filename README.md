@@ -51,14 +51,14 @@ Visit [authrocket website](https://authrocket.netlify.app/application) to genera
         - uuid (string)
     - `returns`: boolean
  ```js
- const user = app.isEmailVerified(<uuid>)
+ const isEmailVerified = app.isEmailVerified(<uuid>)
 ```          
 * isUserLoggedIn
     - `accepts`:
         - uuid (string)
     - `returns`: boolean
  ```js
- const user = app.isUserLoggedIn(<uuid>)
+ const isUserSignedIn = app.isUserSignedIn(<uuid>)
 ```  
  
 * signout
