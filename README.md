@@ -17,6 +17,8 @@ npm install useauthrocket
     })
 ```
 
+Visit [authrocket website](https://authrocket.netlify.app/application) to generate an api key. appName is the name of your application and can be anything
+
 ### Available methods
 
 * createAccount
