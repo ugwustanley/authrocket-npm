@@ -1,6 +1,6 @@
 {
   "name": "useauthrocket",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "an authentication system for your reactjs applications",
   "main": "index.js",
   "keywords": [
