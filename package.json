@@ -1,8 +1,20 @@
 {
   "name": "useauthrocket",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "an authentication system for your reactjs applications",
   "main": "index.js",
+  "keywords": [
+    "authentication",
+    "useauthrocket",
+    "firebase",
+    "database",
+    "storage",
+    "create",
+    "login",
+    "signup",
+    "register",
+    "realtime"
+  ],
   "homepage": "https://github.com/ugwustanley/authrocket-npm",
   "bugs": {
     "url": "https://github.com/ugwustanley/authrocket-npm/issues",
